@@ -51,7 +51,7 @@ app.post('/bpr_db/login', (req, res) => {
     });
 })
 
-let port = process.env.PORT || 8081;
+const port = process.env.PORT || 8081;
 
 app.listen(port, () => {
     console.log(`Server at http://localhost:${port}`);
