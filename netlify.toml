@@ -1,2 +1,4 @@
 [build]
-  functions = "functions"
+functions = "functions"
+node_version = "14"
+command = "npm install && npm run netlify"
