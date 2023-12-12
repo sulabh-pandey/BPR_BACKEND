@@ -5,7 +5,9 @@
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
-    "netlify": "npm start"
+    "netlify": "npm run build && npm run start-netlify",
+    "build": "npm install",
+    "start-netlify": "node server.js"
   },
   "keywords": [],
   "author": "",
